@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #101828;
+}
+
+p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #667085;
+}
+
+a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #101828;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1216px;
+  margin-left: auto;
+  margin-right: auto;
+}
