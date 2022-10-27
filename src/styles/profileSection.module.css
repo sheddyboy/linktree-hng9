@@ -10,13 +10,43 @@
   justify-content: center;
   align-items: center;
 }
-
-.profileImg {
+.profileWrapper {
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 24px;
   width: 88px;
   height: 88px;
   border-radius: 100%;
-  margin-bottom: 24px;
+  border: 5.5px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+.profileWrapper:focus {
+  border: 5.5px solid #ebe9fe;
+  outline: none;
+}
+.profileOverlay {
+  position: absolute;
+  top: 0;
+  width: 88px;
+  height: 88px;
+  border-radius: 100%;
+  background-color: rgba(52, 64, 84, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.profileOverlay img {
+  margin-bottom: 11px;
+}
+
+.profileImg {
+  width: 89px;
+  height: 89px;
+  border-radius: 100%;
+}
+
 .twitter {
   font-family: "Inter";
   font-style: normal;
