@@ -1,0 +1,32 @@
+.section {
+  padding-top: 64px;
+  margin-bottom: 54px;
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileImg {
+  width: 88px;
+  height: 88px;
+  border-radius: 100%;
+  margin-bottom: 24px;
+}
+.twitter {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #101828;
+}
+.shareButton {
+  position: absolute;
+  top: -20px;
+  right: 240px;
+}
