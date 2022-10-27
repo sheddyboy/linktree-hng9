@@ -1,0 +1,11 @@
+.footer {
+  margin-top: 64px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 48px;
+}
