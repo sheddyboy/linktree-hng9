@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styles from "../styles/profileSection.module.css";
 
 const ProfileSection = () => {
-  const [profileOverlay, setProfileOverlay] = useState<boolean>(false);
+  const [profileOverlay, setProfileOverlay] = useState(false);
   return (
     <section className={styles.section}>
       <div className="container">
