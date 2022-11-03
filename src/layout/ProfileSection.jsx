@@ -38,6 +38,11 @@ const ProfileSection = () => {
             src="/_Avatar share button.png"
             alt="share"
           />
+          <img
+            className={styles.shareButtonMobile}
+            src="/_Avatar share button (1).png"
+            alt="share-mobile"
+          />
         </div>
       </div>
     </section>

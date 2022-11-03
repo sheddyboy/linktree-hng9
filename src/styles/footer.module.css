@@ -6,6 +6,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 80px;
+  margin-top: 48px;
+  padding-top: 32px;
   padding-bottom: 48px;
+  border-top: 1px solid #eaecf0;
+}
+
+@media (max-width: 425px) {
+  .wrapper {
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+  }
 }

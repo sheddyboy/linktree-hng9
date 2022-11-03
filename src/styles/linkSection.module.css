@@ -9,3 +9,9 @@
   padding-left: 32px;
   padding-right: 32px;
 }
+
+@media (max-width: 425px) {
+  .wrapper {
+    padding: 0px;
+  }
+}

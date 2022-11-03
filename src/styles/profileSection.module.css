@@ -61,3 +61,20 @@
   right: 240px;
   cursor: pointer;
 }
+
+.shareButtonMobile {
+  display: none;
+  position: absolute;
+  top: -20px;
+  right: 0px;
+  cursor: pointer;
+}
+
+@media (max-width: 425px) {
+  .shareButton {
+    display: none;
+  }
+  .shareButtonMobile {
+    display: block;
+  }
+}
