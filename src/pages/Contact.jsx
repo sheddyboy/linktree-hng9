@@ -10,7 +10,7 @@ const Contact = () => {
     {
       id: "first_name",
       label: "First name",
-      error: "Please enter a your first name",
+      error: "Please enter your first name",
       placeholder: "Enter your first name",
       type: "text",
       textArea: false,
@@ -19,7 +19,7 @@ const Contact = () => {
     {
       id: "last_name",
       label: "Last name",
-      error: "Please enter a your last name",
+      error: "Please enter your last name",
       placeholder: "Enter your last name",
       type: "text",
       textArea: false,
@@ -28,7 +28,7 @@ const Contact = () => {
     {
       id: "email",
       label: "Email",
-      error: "Please enter a your email",
+      error: "Please enter your email",
       placeholder: "yourname@email.com",
       type: "email",
       textArea: false,
